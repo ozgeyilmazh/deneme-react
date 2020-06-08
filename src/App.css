@@ -1,0 +1,307 @@
+/*Reponsive*/
+
+
+
+/* Small Devices*/
+@media only screen and (max-width: 600px) {
+
+   
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+   
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   margin-top: 10%;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1400px) {
+    margin-top: 60%;
+}
+
+/******************************************/
+
+body {
+    margin: 0;
+    font-family: 'Baloo Thambi 2', cursive;
+        opacity: 1;
+}
+
+.header {
+    background: url('images/background3.jpg');
+    text-align: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.header-overlay{
+    -moz-transition: background-color 2.5s ease-in-out;
+	-webkit-transition: background-color 2.5s ease-in-out;
+	-ms-transition: background-color 2.5s ease-in-out;
+	transition: background-color 2.5s ease-in-out;
+	-moz-transition-delay: 0.75s;
+	-webkit-transition-delay: 0.75s;
+	-ms-transition-delay: 0.75s;
+	transition-delay: 0.75s;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-image: url('images/cloud.png');
+    animation: mymove 20s linear infinite;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1000px;}
+}
+.header-overlay2 {
+    -moz-transition: background-color 2.5s ease-in-out;
+	-webkit-transition: background-color 2.5s ease-in-out;
+	-ms-transition: background-color 2.5s ease-in-out;
+	transition: background-color 2.5s ease-in-out;
+	-moz-transition-delay: 0.75s;
+	-webkit-transition-delay: 0.75s;
+	-ms-transition-delay: 0.75s;
+	transition-delay: 0.75s;
+    height: 100%;
+	background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.8)), url("images/overlay.png");
+	background-size: auto,
+ 256px 256px;
+	background-position: center,
+ center;
+	background-repeat: no-repeat,
+ repeat;
+	z-index: 2;
+}
+
+.mdl-layout-title{
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    font-family: 'Baloo Thambi 2', cursive !important;
+}
+.mdl-layout__header{
+    background-color: transparent !important;
+    margin-top: 1% !important; 
+}
+.mdl-layout__drawer {
+    border-right: 0px !important;
+}
+.mdl-navigation {
+    margin-right: 10% !important;
+}
+.mdl-layout__drawer, .mdl-layout__drawer-button {
+    background-color: #161A26 !important;
+    color: #D9D3B8 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-family: 'Baloo Thambi 2', cursive !important;
+    margin-top: 2% !important; 
+}
+.mdl-navigation__link {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    font-family: 'Baloo Thambi 2', cursive !important;
+    background-color: rgba(0,0,0,0.4);
+    margin: 3% !important;
+    margin-left:3% !important;
+    border-radius: 6px;
+}
+.header-baslik {
+    margin-top: 20%;
+}
+.presentation-title {
+    font-size: 8em;
+    font-weight: 700;
+    margin: 0;
+    color: #D9D3B8;
+    background: #fbf8ec;
+    background: linear-gradient(180deg,#fff 35%,#4e6773);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.creater, .creater a{
+    color: #D9D3B8;
+    margin-top: 10%;
+    position: relative;
+}
+.avatar {
+  background-color: #fbf8ec;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.modal-backdrop.in {
+    visibility: hidden;
+}
+.buton,
+.buton:active,
+.buton:focus,
+.buton:visited{
+    border-color: transparent;
+    color: beige;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.buton:hover{
+    border-color: transparent;
+    background-color: #364022;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.modal-content {
+    background: #636363;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/******************Navbar**********************/
+.hakkimizda-resim{
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+
+.hakkimizda-paragraf {
+    color: #fbf8ec;
+    font-family: 'Baloo Thambi 2', cursive !important;
+
+}
+.devam {
+    color: #161A26;
+}
+/**************************************************/
+/******************İletişim************************/
+.form-group {
+    margin-left: 5%;   
+}
+.form-control {
+    background-color: transparent;
+    border-color: #fbf8ec;
+    color: #fbf8ec;
+}
+.btn, .btn:active, .btn:focus, .btn:visited{
+    height: 50%;
+    border-color: bisque;
+    font-family: 'Baloo Thambi 2', cursive !important;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.btn:hover {
+    background-color: transparent;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.btn-gonder,
+.btn-gonder:active,
+.btn-gonder:focus,
+.btn-gonder:visited{
+    background-color: #fbf8ec;
+    border-color: #fbf8ec;
+    color: #364022;
+    padding: 4%;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Baloo Thambi 2', cursive;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.btn-gonder:hover{
+    background-color: transparent;
+}
+.btn-temizle,
+.btn-temizle:active,
+.btn-temizle:focus,
+.btn-temizle:visited{
+    background-color: transparent;
+    border-color: #fbf8ec;
+    color: #364022;
+    padding: 4%;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Baloo Thambi 2', cursive;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.btn-temizle:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+.mesaj:active, .mesaj:focus, .mesaj:visited {
+    background-color: rgba(0,0,0,0.2);
+}
+.social {
+    text-align: center;
+}
+
+.social-icons {
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20%;
+  }  
+
+.social-icons li {
+  padding: 1%;
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:30px;
+  height:30px;
+  margin-top: 10px;
+  margin-right:40px;
+}
+
+#copyright {
+    margin-top: 5%;
+    margin-bottom: -4%;
+    width: 50%;
+}
+#copyright p {
+    color: #8C8B8A;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#copyright p a {
+    text-decoration: none;
+    color: wheat;
+}
+/***********************************************/

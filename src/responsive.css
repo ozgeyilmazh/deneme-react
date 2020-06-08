@@ -1,0 +1,27 @@
+
+/* Small Devices*/
+@media only screen and (max-width: 600px) {
+
+   
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+   
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   margin-top: 10%;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    margin-top: 20%;
+}
